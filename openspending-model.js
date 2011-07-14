@@ -50,7 +50,7 @@
       "label": "Recipient region",
       "type": "classifier",
       "description": "The geographical region of the recipient institution.",
-      "taxonomy": "nerc-gotw.recipient.region"
+      "taxonomy": "nerc-gotw:recipient:region"
     },
     "time_end": {
       "default_value": "",
@@ -73,7 +73,7 @@
       "label": "Science classification",
       "type": "classifier",
       "description": "The primary science classification of the grant, as assigned by NERC.",
-      "taxonomy": "nerc-gotw.nerc-internal.primary-classification"
+      "taxonomy": "nerc-gotw:nerc-internal:primary-classification"
     },
     "program": {
       "fields": [
@@ -88,7 +88,7 @@
       "label": "NERC Programme",
       "type": "classifier",
       "description": "The NERC programme under which the grant was awarded. See http://www.nerc.ac.uk/research/programmes/list.asp.",
-      "taxonomy": "nerc-gotw.nerc-internal.programme"
+      "taxonomy": "nerc-gotw:nerc-internal:programme"
     },
     "award_type": {
       "fields": [
@@ -103,7 +103,7 @@
       "label": "Award type",
       "type": "classifier",
       "description": "The NERC award type. See http://www.nerc.ac.uk/funding/available/researchgrants/typesofaward/.",
-      "taxonomy": "nerc-gotw.nerc-internal.award-type"
+      "taxonomy": "nerc-gotw:nerc-internal:award-type"
     },
     "time": {
       "default_value": "",
@@ -126,7 +126,7 @@
       "label": "Recipient department",
       "type": "classifier",
       "description": "The department receiving the grant within the recipient institution.",
-      "taxonomy": "nerc-gotw.recipient.department"
+      "taxonomy": "nerc-gotw:recipient:department"
     },
     "institution": {
       "fields": [
@@ -141,7 +141,7 @@
       "label": "Recipient institution",
       "type": "classifier",
       "description": "The higher education institution receiving the grant.",
-      "taxonomy": "nerc-gotw.recipient.institution"
+      "taxonomy": "nerc-gotw:recipient:institution"
     },
    "grant_title": {
      "default_value": "",
@@ -175,7 +175,7 @@
       "name": "default",
       "dimension": "institution",
       "breakdown": "department",
-      "filters": {"taxonomy": "nerc-gotw.recipient.institution"}           
+      "filters": {"taxonomy": "nerc-gotw:recipient:institution"}           
     },   
     {
       "entity": "classifier",
@@ -183,7 +183,7 @@
       "name": "default",
       "dimension": "department",
       "breakdown": "grant_reference",
-      "filters": {"taxonomy": "nerc-gotw.recipient.department"}           
+      "filters": {"taxonomy": "nerc-gotw:recipient:department"}           
     }, 
     {
       "entity": "dataset",
