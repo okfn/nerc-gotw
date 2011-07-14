@@ -24,6 +24,7 @@ left join program as p on g.program_id = p.id
 left join department as d on g.department_id = d.id 
 left join institution as i on d.institution_id = i.id
 left join region as r on i.region_id = r.id
+where start_date is not null and end_date is not null
 order by start_date asc;
 
 EOQ
