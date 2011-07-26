@@ -53,6 +53,14 @@
       "description": "The geographical region of the recipient institution.",
       "taxonomy": "nerc-gotw:recipient:region"
     },
+    "time": {
+      "default_value": "",
+      "description": "",
+      "column": "start_date",
+      "label": "Start date",
+      "datatype": "date",
+      "type": "value"
+    },
     "time_end": {
       "default_value": "",
       "description": "",
@@ -105,14 +113,6 @@
       "type": "classifier",
       "description": "The NERC award type. See http://www.nerc.ac.uk/funding/available/researchgrants/typesofaward/.",
       "taxonomy": "nerc-gotw:nerc-internal:award-type"
-    },
-    "time": {
-      "default_value": "",
-      "description": "",
-      "column": "start_date",
-      "label": "Start date",
-      "datatype": "date",
-      "type": "value"
     },
     "department": {
       "fields": [
