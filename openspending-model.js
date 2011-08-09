@@ -1,11 +1,10 @@
 { 
   "dataset": {
-    "model_rev": 1,
     "name": "nerc-gotw",
     "label": "NERC Grants on the Web", 
     "description": "<p>This dataset will eventually be a complete scrape of the <a href=\"http://www.nerc.ac.uk/\">Natural Environment Research Council</a>'s <a href=\"http://gotw.nerc.ac.uk/\">Grants on the Web</a>, providing information on public money granted to scientists for work on environmental issues such as climate change, biodiversity and natural hazards.</p>\n<p>Currently, it contains only a limited subset of this data.</p>\n<p>Please also note that the license terms of this data are  unclear, and as such this dataset should not currently be considered \"open data\".</p>",
     "currency": "GBP",
-    "entry_custom_html": "<h3>This grant elsewhere on the web:</h3><ul><li><a href=\"http://dev.whiteink.com:8010/grant/${entry.grant_reference}\">${entry.grant_reference} on <abbr title=\"Open Science Information Demonstrator\">OSID</abbr> research outputs viewer</a></li><li><a href=\"http://gotw.nerc.ac.uk/list_full.asp?pcode=${entry.grant_reference}\">${entry.grant_reference} on <abbr title=\"Natural Environment Research Council\">NERC</abbr> Grants on the Web</a></li><li><a href=\"http://www.google.co.uk/search?q=&quot;${entry.grant_reference}&quot;\">Search for ${entry.grant_reference} on Google</a></li></ul>",
+    "entry_custom_html": "<h3>This grant elsewhere on the web:</h3><ul><li><a href=\"http://dev.whiteink.com/grant/${entry.grant_reference}\">${entry.grant_reference} on <abbr title=\"Open Science Information Demonstrator\">OSID</abbr> research outputs viewer</a></li><li><a href=\"http://gotw.nerc.ac.uk/list_full.asp?pcode=${entry.grant_reference}\">${entry.grant_reference} on <abbr title=\"Natural Environment Research Council\">NERC</abbr> Grants on the Web</a></li><li><a href=\"http://www.google.co.uk/search?q=&quot;${entry.grant_reference}&quot;\">Search for ${entry.grant_reference} on Google</a></li></ul>",
     "unique_keys": ["grant_reference"]
   },
   "mapping": {
